@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+	    id        	= "com.phonegap.kitnahua"
+        versionCode = "10"
+        version     = "1.2.0">
+ 
+	<name>All in One</name>
+	<description>
+		A fully functional phonegap api application
+	</description>
+	<author email="rahulthespaceman@gmail.com">
+		Rahul Bohra
+	</author>
+ 	<icon src="img/icon.png" gap:role="default" />
+
+<!--
+
+	<gap:splash src="splash/splash-480x320.png"   gap:platform="ios" width="320"  height="480"  /><!-- Regular iPhone4 ->
+	<gap:splash src="splash/splash-640x960.png"   gap:platform="ios" width="640"  height="960"  /><!-- Retina iPhone4 ->
+	<gap:splash src="splash/splash-640x1136.png"  gap:platform="ios" width="640"  height="1136" /><!-- iPhone5 ->
+	<gap:splash src="splash/splash-768x1004.png"  gap:platform="ios" width="768"  height="1004" /><!-- iPad Portrait ->
+	<gap:splash src="splash/splash-1024x748.png"  gap:platform="ios" width="1024" height="748"  /><!-- iPad Landscape ->
+	
+	<!-- Retina iPads: Requires PhoneGap 2.5.0 or higher ->
+	<gap:splash src="splash/splash-1536x2008.png" gap:platform="ios" width="1536" height="2008" /><!-- Portrait ->
+	<gap:splash src="splash/splash-2048x1496.png" gap:platform="ios" width="2048" height="1496" /><!-- Landscape ->
+	
+	<gap:splash src="splash/splash-320x426.png" gap:platform="android" gap:density="ldpi"  width="320" height="426" />
+	<gap:splash src="splash/splash-320x470.png" gap:platform="android" gap:density="mdpi"  width="320" height="470" />
+	<gap:splash src="splash/splash-480x640.png" gap:platform="android" gap:density="hdpi"  width="480" height="640" />
+	<gap:splash src="splash/splash-720x960.png" gap:platform="android" gap:density="xhdpi" width="720" height="960" />
+
+-->
+
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+ 
+</widget>
