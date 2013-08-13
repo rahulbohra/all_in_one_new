@@ -5,9 +5,9 @@
         versionCode="10" 
         version   = "1.2.0">
     <!-- versionCode is optional and Android only -->
-    <name>BNI Super Acheivers</name>
+    <name>Read a file</name>
     <description>
-        BNI Super Acheivers
+        Read a file
     </description>
     <author href="https://www.hetuinfotech.com" email="we@hetu.me">
         Hetu Infotech
